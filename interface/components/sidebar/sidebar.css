@@ -1,6 +1,9 @@
 
 setl-sidebar {
-    width: 40px;
+    width: 60px;
+    
+    color: hsl(var(--accent-hue), 100%, 50%);
+    background-color: hsl(var(--accent-hue), 100%, 7%);
 }
 
 setl-sidebar-button {
