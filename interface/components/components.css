@@ -1,5 +1,7 @@
 
 @import url( "/interface/components/sidebar/sidebar.css" );
 
+@import url( "/interface/components/tool/container.css" );
 @import url( "/interface/components/tool/tool.css" );
 @import url( "/interface/components/tool/header.css" );
+@import url( "/interface/components/tool/body.css" );

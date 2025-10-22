@@ -1,6 +1,10 @@
 
 @import url( "components/components.css" );
 
+* {
+    user-select: none;
+}
+
 body {
     display: flex;
 
