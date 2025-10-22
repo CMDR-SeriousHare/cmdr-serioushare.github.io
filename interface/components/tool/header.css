@@ -1,0 +1,9 @@
+
+setl-tool-header {
+    flex: 0 0 40px;
+    
+    color: hsl(var(--accent-hue), 100%, 50%);
+    background-color: hsl(var(--accent-hue), 100%, 7%);
+
+    border-bottom: solid 1px hsl(var(--accent-hue), 100%, 50%);
+}

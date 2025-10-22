@@ -1,0 +1,6 @@
+
+[is=setl-tool] {
+    display: flex;
+
+    flex-flow: column nowrap;
+}

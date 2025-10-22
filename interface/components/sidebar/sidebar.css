@@ -7,6 +7,8 @@ setl-sidebar {
     
     color: hsl(var(--accent-hue), 100%, 50%);
     background-color: hsl(var(--accent-hue), 100%, 7%);
+
+    border-right: solid 1px hsl(var(--accent-hue), 100%, 50%);
 }
 
 setl-sidebar-button {

@@ -1,2 +1,5 @@
 
 @import url( "/interface/components/sidebar/sidebar.css" );
+
+@import url( "/interface/components/tool/tool.css" );
+@import url( "/interface/components/tool/header.css" );
