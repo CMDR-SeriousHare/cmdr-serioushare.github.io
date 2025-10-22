@@ -1,16 +1,30 @@
 <html>
   <head>
     <title>Serious Elite Tools Library</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+    <link rel="stylesheet" href="/interface/components/import.css" />
+    <link rel="stylesheet" href="/themes/default.css" />
   </head>
   <body>
-    <div class="sidebar">
-      <div class="sidebar-btn">Home</div>
-    </div>
-    <div class="content">
-      <div class="tool-header">Serious Elite Tools Library</div>
-      <div class="tool-body">
+    <setl-sidebar>
+      <setl-sidebar-button tool="home">
+        <span class="material-symbols-outlined">home</span>
+      </setl-sidebar-button>
+    </setl-sidebar>
+    <setl-tool-container>
+      <setl-tool-header>Serious Elite Tools Library</setl-tool-header>
+      <setl-tool-content>
         <h1>Welcome to SETL, a set of tools I build to assist with various activities in Elite Dangerous.</h1>
-      </div>
-    </div>
+      </setl-tool-content>
+    </setl-tool-container>
   </body>
 </html>
