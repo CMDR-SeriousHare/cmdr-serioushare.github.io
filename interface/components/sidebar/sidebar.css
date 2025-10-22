@@ -11,6 +11,7 @@ setl-sidebar {
 }
 
 setl-sidebar-button {
+    width: 60px;
     height: 40px;
     text-align: center;
 }
