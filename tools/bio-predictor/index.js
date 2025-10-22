@@ -1,10 +1,20 @@
 
 class SetlBioPredictor extends HTMLElement {
+
+    #header;
     
-    constructor () {}
+    constructor () {
+        super();
+    }
 
     connectedCallback () {
-        console.log( 'connected' );
+        if ( !this.#header ) {
+            this.#header = document.createElement( 'setl-tool-header' );
+            this.#header.setAttribute( 'name', 'SETL - Nio Predictor' );
+
+            this.appendChild( this.#header );
+        }
+
     }
 
 }
