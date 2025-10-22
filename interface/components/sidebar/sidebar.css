@@ -11,6 +11,8 @@ setl-sidebar {
 }
 
 setl-sidebar-button {
+    height: 40px;
+    text-align: center;
 }
 
 setl-sidebar-button:hover {
