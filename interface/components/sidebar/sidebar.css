@@ -2,17 +2,16 @@
 setl-sidebar {
     display: flex;
 
-    width: 60px;
+    flex-flow: column nowrap;
+    flex: 0 0 60px;
     
     color: hsl(var(--accent-hue), 100%, 50%);
     background-color: hsl(var(--accent-hue), 100%, 7%);
-
-    flex-flow: column nowrap;
 }
 
 setl-sidebar-button {
-    width: 60px;
-    height: 40px;
+    flex: 0 0 40px;
+
     text-align: center;
 }
 
@@ -21,5 +20,5 @@ setl-sidebar-button:hover {
 }
 
 setl-sidebar-spacer {
-    
+    flex: 1 1 auto;
 }

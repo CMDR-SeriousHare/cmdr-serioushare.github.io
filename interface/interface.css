@@ -1,0 +1,10 @@
+
+@import url( "components/components.css" );
+
+body {
+    display: flex;
+
+    margin: 0px;
+
+    background-color: hsl(var(--accent-hue), 100%, 4%);
+}
