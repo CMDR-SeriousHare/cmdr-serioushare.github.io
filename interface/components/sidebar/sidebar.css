@@ -13,6 +13,7 @@ setl-sidebar-button {
     flex: 0 0 40px;
 
     text-align: center;
+    align-content: center;
 }
 
 setl-sidebar-button:hover {
