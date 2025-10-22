@@ -13,26 +13,44 @@
     </style>
     <link rel="stylesheet" href="/interface/interface.css" />
     <link rel="stylesheet" href="/themes/default.css" />
+    <script src="/tools/bio-predictor/"></script>
   </head>
   <body>
     <setl-sidebar>
       <setl-sidebar-button tool="home">
-        <span class="material-symbols-outlined">home</span>
+        <span class="material-symbols-outlined" title="Home">home</span>
       </setl-sidebar-button>
-      <setl-sidebar-button tool="bio-scanner">
-        <span class="material-symbols-outlined">eco</span>
+      <setl-sidebar-button tool="bio-predictor">
+        <span class="material-symbols-outlined" title="Bio Predictor">eco</span>
       </setl-sidebar-button>
       <setl-sidebar-spacer>
       </setl-sidebar-spacer>
-      <setl-sidebar-button tool="settings">
-        <span class="material-symbols-outlined">cog</span>
+      <setl-sidebar-button tool="settings" title="Settings">
+        <span class="material-symbols-outlined">settings</span>
       </setl-sidebar-button>
     </setl-sidebar>
     <setl-tool-container>
-      <setl-tool-header>Serious Elite Tools Library</setl-tool-header>
+      <setl-bio-predictor></setl-bio-predictor>
+      <!--
+      <setl-tool-header>SETL - Bio Predictor</setl-tool-header>
       <setl-tool-content>
-        <h1>Welcome to SETL, a set of tools I build to assist with various activities in Elite Dangerous.</h1>
+        <div class="input-section">
+
+        </div>
+        <div class="result-section">
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+            <tr>
+              <td>Test</td>
+              <td>1000000</td>
+            </tr>
+          </table>
+        </div>
       </setl-tool-content>
+      -->
     </setl-tool-container>
   </body>
 </html>
