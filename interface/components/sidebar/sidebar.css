@@ -6,10 +6,11 @@ setl-sidebar {
     
     color: hsl(var(--accent-hue), 100%, 50%);
     background-color: hsl(var(--accent-hue), 100%, 7%);
+
+    flex-flow: column nowrap;
 }
 
 setl-sidebar-button {
-    background-color: hsl(var(--accent-hue), 100%, 16%);
 }
 
 setl-sidebar-button:hover {
