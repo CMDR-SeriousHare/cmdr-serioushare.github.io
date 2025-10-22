@@ -1,5 +1,7 @@
 
 setl-sidebar {
+    display: flex;
+
     width: 60px;
     
     color: hsl(var(--accent-hue), 100%, 50%);
@@ -7,7 +9,11 @@ setl-sidebar {
 }
 
 setl-sidebar-button {
-    
+    background-color: hsl(var(--accent-hue), 100%, 16%);
+}
+
+setl-sidebar-button:hover {
+    background-color: hsl(var(--accent-hue), 100%, 16%);
 }
 
 setl-sidebar-spacer {
