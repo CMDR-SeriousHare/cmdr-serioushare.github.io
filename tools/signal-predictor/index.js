@@ -1,11 +1,12 @@
 
-class SetlBioPredictor extends HTMLElement {
+class SetlSignalPredictor extends HTMLElement {
 
     #header;
     #body;
 
     #input;
     #bodySelect;
+    #atmosphereSelect;
 
     #output;
     
@@ -47,11 +48,29 @@ class SetlBioPredictor extends HTMLElement {
 
         this.#body.appendChild( this.#input );
 
-        this.#createSelectInput( 'body', 'Body', [
+        this.#bodySelect = this.#createSelectInput( 'body', 'Body', [
             'Icy body',
             'Rocky ice body',
             'Rocky body',
             'High metal content body'
+        ] )
+
+        this.#atmosphereSelect = this.#createSelectInput( 'atmosphere', 'Atmosphere', [
+            'Ammonia',
+            'Argon',
+            'Argon-rich',
+            'Carbon Dioxide',
+            'Helium',
+            'Methane',
+            'Methane-Rich',
+            'Neon',
+            'Neon-rich',
+            'Nitrogen',
+            'Oxygen',
+            'Sulphur Dioxide',
+            'Sulphur Dioxide-rich',
+            'Water',
+            'Water-Rich'
         ] )
     }
 
@@ -86,4 +105,4 @@ class SetlBioPredictor extends HTMLElement {
     }
 
 }
-customElements.define( 'setl-bio-predictor', SetlBioPredictor );
+customElements.define( 'setl-signal-predictor', SetlSignalPredictor );
