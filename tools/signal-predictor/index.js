@@ -52,6 +52,7 @@ class SetlSignalPredictor extends HTMLElement {
             'Icy body',
             'Rocky ice body',
             'Rocky body',
+            'Metal-rich body',
             'High metal content body'
         ] )
 
